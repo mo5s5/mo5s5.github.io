@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html>
+<header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/House_Rent_Home.css">
+
+</header>
+
+<body style="font-family:Verdana;">
+    <div class="topBar">
+        <div class="topBorder1"></div>
+        <div class="topBorder2"></div>
+    </div>
+
+    <div class="leftBorder"></div>
+
+    <div class="title">
+        <h1> Ferienwohnung Klose</h1>
+    </div>
+
+    <div style="overflow:hidden">
+        <div class="left">
+            <div class="menu">
+                <a href="House_Rent_Home.html">Home</a>
+                <a href="House_Rent_Info.html">Infos</a>
+                <a href="House_Rent_Wohnung_1.html">Wohnung I</a>
+                <a href="House_Rent_Wonhung_2.html">Wohnung II</a>
+                <a href="House_Rent_Doppelzimmer.html">Doppelzimmer</a>
+                <a href="House_Rent_Impressum.html">Impressum</a>
+            </div>
+        </div>
+
+
+
+        <div class="main">
+            <h2>Home </h2>
+            <div class="img">
+                <img style="max-width: 100%;" height="450px"
+                    src="http://www.fewo-klose-obernhof.de/assets/images/db_images/db_Hausansicht3.jpg" alt="">
+            </div>
+            <div class="description">
+                <p>Herzlich Willkommen in der Ferienwohnung Klose!<br>
+                    <br>
+                    Genießen Sie mit uns Ferien und Erholung pur! <br>
+                    <br>
+                    Unsere Wohnungen bietet Ihnen Erholung in herrlicher und unberührter Natur.
+                    Sie können die wunderschöne Umgebung an der Lahn für Wanderungen, Fahrradtouren oder Spaziergänge
+                    nutzen. <br> <br>
+
+                    Wir bieten 2 Ferienwohnungen und ein Doppelzimmer mit Dusche/WC an.
+                    Weitere Infos über die Zimmer finden Sie <a class="info">hier!</a>
+                    Die Einrichtung ist geschmackvoll und funktional eingerichtet.
+                    <br><br>
+                    NEU seit 2019 <a
+                        href="https://www.vrminfo.de/fahrkarten/tickets/fahrkarten/vrm-gaesteticket/">Gästeticket im VRM
+                        Verbund</a> Dieses Ticket ist kostenfrei und berechtigt den öffentlichen Personennahverkehr im
+                    Gebiet des VRM zu benutzen.
+                </p>
+                <div class="trainLogo"><img
+                        src="http://www.fewo-klose-obernhof.de/assets/images/VRM_Piktogramme_Gaesteticket_gross_neu.jpg"
+                        alt=""></div>
+
+                <p>Wir freuen uns auf Ihren Besuch! Informieren Sie sich doch ganz einfach vorab auf dieser
+                    Internetseite über unser Haus und unseren Service. Selbstverständlich stehen wir für Fragen und
+                    Reservierungen jederzeit gerne zur Verfügung. <br> <br>
+                    Sie erreichen uns per E-Mail. unter:<a class="email">klose@fewo-klose-obernhof.de</a> <br><br>
+                    Wir freuen uns Sie in Obernhof/Lahn begrüßen zu dürfen! </p>
+            </div>
+
+
+
+
+            <div class="location">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3547.9098815680436!2d7.729433961674309!3d50.32101733866475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47be78de560affa5%3A0xfe920f24be26426c!2sFerienwohnung%20Haus%20Schillerallee!5e1!3m2!1sen!2sru!4v1645955849887!5m2!1sen!2sru"
+                    width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+
+        <div class="right">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Consectetur rerum cupiditate natus, reiciendis perferendis porro tempore sapiente
+                neque libero. Sint tenetur aspernatur, corrupti, eius nemo fuga corporis sit maxime amet dolores nam
+                beatae dignissimos provident cupiditate molestiae soluta, deserunt voluptas repudiandae et est. Fugiat
+                aspernatur distinctio tenetur nesciunt, sit consequatur inventore, deleniti libero nemo, ipsam quidem!
+                Veritatis atque sint dolores ea et doloribus similique incidunt itaque possimus provident? Recusandae
+                inventore hic deleniti magnam excepturi soluta ratione ut quia, numquam earum?</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h2>instagram kam tenc ayl baneri linker kareli a dnel vor nkarner baner aveli shat nayen kam
+            otzivner karenan kardan</h2>
+    </div>
+</body>
+
+
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/House_Rent_Doppelzimmer.css">
+    <title>Doppelzimmer</title>
+    <script src="JS/House_Rent_Wohnung-1.js">
+    </script>
+</header>
+
+<body>
+    <div class="topBar">
+        <div class="topBorder1"></div>
+        <div class="topBorder2"></div>
+    </div>
+
+    <div class="title">
+        <div class="leftBorder"></div>
+        <h1> Pension Lahnterrasse</h1>
+    </div>
+
+    <div class="content">
+        <div class="left">
+            <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="House_Rent_Info.html">Infos</a>
+                <a href="House_Rent_Wohnung_1.html">Wohnung I</a>
+                <a href="House_Rent_Wonhung_2.html">Wohnung II</a>
+                <a href="House_Rent_Doppelzimmer.html">Doppelzimmer</a>
+                <a href="House_Rent_Impressum.html">Impressum</a>
+            </div>
+        </div>
+
+        <div class="main">
+            <h2>Doppelzimmer mit Bad</h2>
+            <div class="description">
+                <p>
+
+                    Ca. 24m² <br>
+                    Preise: <br>
+                    Tagesgäste 30€/Person und Tag (ohne Frühstück) <br>
+                    (Frühstücksmöglichkeit bitte bei Buchung oder Anreise absprechen). <br>
+
+                </p>
+
+            </div>
+
+            <div class="grid">
+                <!-- <div> -->
+                <img src="img/doppelzimmer/tmb/tmb-Hausansicht.jpg" onclick="openModal();currentSlide(1)"
+                    class="hover-shadow cursor" id="home" alt="">
+                <!-- <a href="">Hausansicht</a> -->
+                <!-- </div> -->
+                <!-- <div> -->
+                <img src="img/doppelzimmer/tmb/tmb-Aussenansicht.jpg" onclick="openModal();currentSlide(2)"
+                    class="hover-shadow cursor" id="terase" alt="">
+                <!-- <a href="">Außenansicht hinten</a> -->
+                <!-- </div> -->
+
+                <!-- <div> -->
+                <img src="img/doppelzimmer/tmb/tmb-schlafzimmer.jpg" onclick="openModal();currentSlide(3)"
+                    class="hover-shadow cursor" alt="">
+                <!-- <a href="">Schlafzimmer</a> -->
+                <!-- </div> -->
+
+                <!-- <div> -->
+                <img src="img/doppelzimmer/tmb/tmb-doppelzimmer.jpg" onclick="openModal();currentSlide(4)"
+                    class="hover-shadow cursor" alt="">
+                <!-- <a href="">Doppelzimmer</a> -->
+                <!-- </div> -->
+                <!-- 
+                <div> -->
+                <img src="img/doppelzimmer/tmb/tmb-doppelzimmer2.jpg" onclick="openModal();currentSlide(5)"
+                    class="hover-shadow cursor" alt="">
+                <!-- <a href="">Doppelzimmer</a> -->
+                <!-- </div> -->
+
+                <!-- <div> -->
+                <img src="img/doppelzimmer/tmb/tmb-bad.jpg" onclick="openModal();currentSlide(6)"
+                    class="hover-shadow cursor" alt="">
+                <!-- <a href="">Bad</a> -->
+                <!-- </div> -->
+
+                <!-- <div> -->
+                <img src="img/doppelzimmer/tmb/tmb-bad-und-WC.jpg" onclick="openModal();currentSlide(7)"
+                    class="hover-shadow cursor" alt="">
+                <!-- <a href="">Bad und WC</a> -->
+                <!-- </div> -->
+
+                <!-- <div> -->
+                <img src="img/doppelzimmer/tmb/tmb-Frühstücksraum.jpg" onclick="openModal();currentSlide(8)"
+                    class="hover-shadow cursor" alt="">
+                <!-- <a href="">Frühstücksraum</a> -->
+                <!-- </div> -->
+
+                <!-- <div> -->
+                <img src="img/doppelzimmer/Frühstücksraum2.jpg" onclick="openModal();currentSlide(9)"
+                    class="hover-shadow cursor" alt="">
+                <!-- <a href="">Frühstücksraum</a> -->
+                <!-- </div> -->
+            </div>
+
+            <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+
+                    <div class="mySlides">
+                        <div class="numbertext">1 / 9</div>
+                        <img src="img/doppelzimmer/home.jpg">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 9</div>
+                        <img src="img/doppelzimmer/Außenansicht hinten.jpg">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 9</div>
+                        <img src="img/doppelzimmer/Schlafzimmer.jpg">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 9</div>
+                        <img src="img/doppelzimmer/doppelzimmer1.jpg">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">5 / 9</div>
+                        <img src="img/doppelzimmer/dopppelzimmer2.jpg">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">6 / 9</div>
+                        <img src="img/doppelzimmer/bad.jpg">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">7 / 9</div>
+                        <img src="img/doppelzimmer/Bad und WC.jpg">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">8 / 9</div>
+                        <img src="img/doppelzimmer/Frühstücksraum1.jpg">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">9 / 9</div>
+                        <img src="img/doppelzimmer/Frühstücksraum2.jpg">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+
+            </div>
+
+        </div>
+
+</body>

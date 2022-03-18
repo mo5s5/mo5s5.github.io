@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+b {
+    font-size: 1.3rem;
+}
+
+.topBar {
+    overflow: hidden;
+    border: 2px solid white;
+}
+
+.topBorder1 {
+    float: left;
+    background: rgb(0, 19, 192);
+    height: 60px;
+    width: 15%;
+    margin: 0;
+    padding: 0;
+    border: 2px solid white;
+    border-radius: 0px 0px 25px 0px;
+}
+
+.topBorder2 {
+    float: right;
+    height: 60px;
+    border-radius: 0px 0px 0px 25px;
+    width: 85%;
+    margin: 0;
+    background: rgb(0, 19, 192);
+    padding: 0;
+    border: 2px solid white;
+}
+
+.title {
+    background: rgb(209, 209, 221);
+    border-radius: 25px 25px 0px 0px;
+    width: 85%;
+    margin-left: 15%;
+    text-align: center;
+    padding: 15px;
+    border: 5px solid rgba(27, 17, 17, 0.5);
+    margin-bottom: 30px;
+}
+
+.rect {
+    display: inline;
+    fill: aqua;
+}
+
+.leftBorder {
+    display: inline;
+    height: max-content;
+    background: blue;
+}
+
+.content {
+    overflow: hidden;
+}
+
+.menu {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.menu a {
+    background-color: #e5e5e5;
+    padding: 8px;
+    margin-top: 3px;
+    margin-right: 10px;
+    display: block;
+    width: 60%;
+    color: black;
+    border-radius: 2px;
+}
+
+.menu a:hover {
+    background-color: blue;
+
+}
+
+.main {
+
+    float: left;
+    padding: 15 20px;
+    width: 60%;
+}
+
+.description {
+    margin-top: 30px;
+}
+
+.right {
+    background-color: #e5e5e5;
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+}
+
+a {
+    color: blue;
+}
+
+.footer {
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 620px) {
+
+    /* For mobile phones: */
+    .menu, .main, .right {
+        width: 100%;
+    }
+}

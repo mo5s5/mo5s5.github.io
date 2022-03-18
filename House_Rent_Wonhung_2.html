@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/House_Rent_Wonhung_2.css">
+    <script src="JS/House_Rent_Wohnung-1.js">
+    </script>
+    <title>Wohnung II</title>
+</header>
+
+<body>
+    <div class="topBar">
+        <div class="topBorder1"></div>
+        <div class="topBorder2"></div>
+    </div>
+
+    <div class="title">
+        <div class="leftBorder"></div>
+        <h1>Pension Lahnterrasse</h1>
+    </div>
+
+    <div class="content">
+        <div class="left">
+            <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="House_Rent_Info.html">Infos</a>
+                <a href="House_Rent_Wohnung_1.html">Wohnung I</a>
+                <a href="House_Rent_Wonhung_2.html">Wohnung II</a>
+                <a href="House_Rent_Doppelzimmer.html">Doppelzimmer</a>
+                <a href="House_Rent_Impressum.html">Impressum</a>
+            </div>
+        </div>
+
+        <div class="main">
+            <h2>Wohnung II</h2>
+            <div class="description">
+                <p>
+                    Ca. 110m² bestehend aus: <br>
+                    Wohnzimmer, Schlafzimmer 1, Schlafzimmer 2, Küche und Bad. <br>
+                    (bei extremen Außentemperaturen schaltet Ihnen der Gastgeber, <br> auf Ihren Wunsch, die Klimaanlage
+                    ein). <br>
+                    Vermietung ab 4 Tagen. <br>
+                    Preise: <br>
+                    Bis 2 Personen 44€/Tag <br>
+                    Jede weitere Person 15€/Tag. <br>
+
+                </p>
+            </div>
+
+            <div class="grid">
+                <img src="img/wonhung2/tmb/tmb-home.jpg" onclick="openModal();currentSlide(1)"
+                    class="hover-shadow cursor" id="home" alt="Hausansicht">
+                <img src="img/wonhung2/tmb/tmb-aus.jpg" onclick="openModal();currentSlide(2)"
+                    class="hover-shadow cursor" id="terase" alt="Aussenansicht">
+                <img src="img/wonhung2/tmb/tmb-kuche.jpg" onclick="openModal();currentSlide(3)"
+                    class="hover-shadow cursor" alt="Kuche">
+                <img src="img/wonhung2/tmb/tmb-kuche2.jpg" onclick="openModal();currentSlide(4)"
+                    class="hover-shadow cursor"
+                    alt="Kuche">
+                <img src="img/wonhung2/tmb/tmb-kuche3.jpg" onclick="openModal();currentSlide(5)"
+                    class="hover-shadow cursor"
+                    alt="Kuche">
+                <img src="img/wonhung2/tmb/tmb-schlafzimmer.jpg" onclick="openModal();currentSlide(6)"
+                    class="hover-shadow cursor" alt="Schlafzimmer">
+                <img src="img/wonhung2/tmb/tmb-schlafzimmer2.jpg" onclick="openModal();currentSlide(7)"
+                    class="hover-shadow cursor" alt="Schlafzimmer">
+                <img src="img/wonhung2/tmb/tmb-wohnzimmer.jpg" onclick="openModal();currentSlide(8)"
+                    class="hover-shadow cursor" alt="Wohnzimmer">
+                <img src="img/wonhung2/tmb/tmb-wohnzimmer2.jpg" onclick="openModal();currentSlide(9)"
+                    class="hover-shadow cursor" alt="Wohnzimmer">
+                <img src="img/wonhung2/tmb/tmb-wohnzimmer3.jpg" onclick="openModal();currentSlide(10)"
+                    class="hover-shadow cursor"
+                    alt="Wohnzimmer">
+            </div>
+
+        </div>
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+                <div class="mySlides">
+                    <div class="numbertext">1 / 10</div>
+                    <img src="img/wonhung2/home.jpg">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 10</div>
+                    <img src="img/wonhung2/Aussenansicht.jpg">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 10</div>
+                    <img src="img/wonhung2/kuche.jpg">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 10</div>
+                    <img src="img/wonhung2/kuche2.jpg">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 10</div>
+                    <img src="img/wonhung2/kuche3.jpg">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 10</div>
+                    <img src="img/wonhung2/Schlafzimmer1.jpg">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">7 / 10</div>
+                    <img src="img/wonhung2/Schlafzimmer2.jpg">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">8 / 10</div>
+                    <img src="img/wonhung2/wohnzimmer.jpg">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">9 / 10</div>
+                    <img src="img/wonhung2/Wohnzimmer2.jpg">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">10 / 10</div>
+                    <img src="img/wonhung2/Wohnzimmer3.jpg">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
