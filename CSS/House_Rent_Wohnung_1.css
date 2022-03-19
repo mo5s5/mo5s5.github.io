@@ -257,7 +257,8 @@ img.hover-shadow {
     }
 
     .close {
-        right: 145px;
-        ;
+        right: 170px;
+        z-index:1;
+        color:red;
     }
 }
