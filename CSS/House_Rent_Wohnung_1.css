@@ -260,5 +260,7 @@ img.hover-shadow {
         right: 170px;
         z-index:1;
         color:red;
+        font-size: 55px;
+        padding: 10px;
     }
 }
