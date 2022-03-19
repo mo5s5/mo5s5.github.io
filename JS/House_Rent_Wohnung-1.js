@@ -7,7 +7,7 @@ function myFunction(imgs) {
 }
 
 function openModal() {
-  document.getElementById("myModal").style.display = "block";
+  document.getElementById("myModal").style.display = "flex";
   const body = document.querySelector("body");
   body.style.overflow = "hidden";
 }
