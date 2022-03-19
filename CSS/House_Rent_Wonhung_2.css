@@ -267,7 +267,7 @@ img.hover-shadow {
     .close {
        right: 170px;
         z-index:1;
-        color:red;
+        color:white;
         font-size: 55px;
         padding: 10px;
     }
